@@ -23,9 +23,6 @@ export class Employee {
   @Column({ type: 'date', nullable: true })
   start_date: Date | null;
 
-  @Column({ type: 'date', nullable: true })
-  end_date: Date | null;
-
   @Column()
   iden_no: number;
 
@@ -36,16 +33,10 @@ export class Employee {
   commission: number;
 
   @Column()
-  ot_money: number;
-
-  @Column()
   ot_hour: number;
 
   @Column()
   prefix: string;
-
-  @Column()
-  detail: string;
 
   @Column()
   social_secure: string;
