@@ -10,12 +10,12 @@ import { Employee } from './employee/entities/employee.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
-      port: 3306,
+      host: 'viaduct.proxy.rlwy.net',
+      port: 24877,
       username: 'root',
-      password: "",
-      database: 'employeesystem',
-      entities: [Employee],
+      password: "gbg452dDBEdBB5-C-Bb331DBaA62d563",
+      database: 'railway',
+      entities: [],
       synchronize: true,
     }),
     EmployeeModule,
