@@ -20,6 +20,19 @@ import { Employee } from './employee/entities/employee.entity';
     }),
     EmployeeModule,
   ],
+  // imports: [
+  //   TypeOrmModule.forRoot({
+  //     type: 'mysql',
+  //     host: 'localhost',
+  //     port: 3306,
+  //     username: 'root',
+  //     password: "",
+  //     database: 'employeesystem',
+  //     entities: [Employee],
+  //     synchronize: true,
+  //   }),
+  //   EmployeeModule,
+  // ],
   controllers: [AppController],
   providers: [AppService],
 })
